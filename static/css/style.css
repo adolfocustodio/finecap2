@@ -56,3 +56,46 @@ header {
 .card h5 {
     margin-bottom: 5px !important;
 }
+
+
+form {
+    width: 100%;
+}
+
+
+.form_item {
+    margin-bottom: 10px !important;
+}
+
+
+.form_item p {
+    margin-bottom: 5px !important;
+}
+
+
+input, select {
+    padding: 5px !important;
+}
+
+
+.form-control:focus, .form-select:focus {
+    border-color: #e2d9f3 !important;
+    box-shadow: 0 0 0 0.2rem #c5b3e640 !important;
+}
+
+
+.btn {
+    background-color: #6f42C1 !important;
+    color: #fff !important;
+    padding: 5px !important;
+}
+
+
+.btn:hover {
+    background-color: #59359a !important;
+}
+
+
+.btn:active {
+    background-color: #432874 !important;
+}

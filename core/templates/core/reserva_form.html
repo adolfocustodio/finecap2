@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block titulo %}
+Cadastro de Reservas
+{% endblock  %}
+{% block conteudo %}
+<form method="post">
+    {% csrf_token %}
+    <div class="form_item">
+        <p>CNPJ</p>
+        {{ form.cnpj }}
+    </div>
+    <div class="form_item">
+        <p>Nome da Empresa</p>
+        {{ form.nome_empresa }}
+    </div>
+    <div class="form_item">
+        <p>Categoria da Empresa</p>
+        {{ form.categoria_empresa }}
+    </div>
+    <div class="form_item">
+        <p>Stand</p>
+        {{ form.stand }}
+    </div>
+    <button type="submit" class="btn"><p>Enviar</p></button>
+</form>
+{% endblock %}

@@ -1,0 +1,34 @@
+.conteudo:has(.table) .btn {
+    margin-top: 10px !important;
+}
+
+
+th {
+    padding-bottom: 5px !important;
+}
+
+
+tbody tr:hover td {
+    background-color: #c5b3e640;
+}
+
+
+td {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+
+td a {
+    color: #6f42C1;
+}
+
+
+td a:hover {
+    color: #59359a;
+}
+
+
+td a:active {
+    color: #432874;
+}

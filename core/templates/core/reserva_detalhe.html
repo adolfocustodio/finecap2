@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block titulo %}
+{{ reserva.nome_empresa }}
+{% endblock  %}
+{% block conteudo %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome da Empresa</th>
+            <th>Categoria</th>
+            <th>CNPJ</th>
+            <th>Quitado</th>
+            <th>Stand</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ reserva.nome_empresa }}</td>
+            <td>{{ reserva.categoria_empresa }}</td>
+            <td>{{ reserva.cnpj }}</td>
+            <td>{{ reserva.quitado }}</td>
+            <td>{{ reserva.stand }}</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
