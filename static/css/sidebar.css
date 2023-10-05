@@ -1,0 +1,35 @@
+.sidebar {
+    background-color: #432874;
+    height: 100%;
+    position: fixed;
+    width: 250px !important;
+}
+
+
+.sidebar .titulo {
+    background-color: #59359a;
+    padding: 10px !important;
+}
+
+
+.sidebar a {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    padding: 10px !important;
+}
+
+
+.sidebar a:hover {
+    color: #e2d9f3;
+}
+
+
+.sidebar a:active {
+    color: #c5b3e6;
+}
+
+
+.sidebar p {
+    margin-left: 5px !important;
+}

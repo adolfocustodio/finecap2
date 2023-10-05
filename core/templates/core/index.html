@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block titulo %}
+Dashboard
+{% endblock %}
+{% block conteudo %}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Total de Stands</h5>
+        <p class="card-text">{{ total_stand }}</p>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Total de Reservas</h5>
+        <p class="card-text">{{ total_reserva }}</p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,58 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+h3 {
+    color: #fff;
+}
+
+
+a {
+    text-decoration: 0;
+}
+
+
+main {
+    height: 100%;
+    margin-left: 250px !important;
+}
+
+
+header {
+    background-color: #6f42c1;
+    padding: 10px !important;
+    text-align: center;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 20px !important;
+}
+
+
+.conteudo:has(.card) {
+    justify-content: space-evenly;
+}
+
+
+.card {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 10px !important;
+    width: 16rem;
+}
+
+
+.card:hover {
+    background-color: #59359a;
+}
+
+
+.card h5 {
+    margin-bottom: 5px !important;
+}
